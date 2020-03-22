@@ -20,7 +20,7 @@ fetch('http://smart.sum.ba/parking?withParkingSpaces=1', {
 
 
 var i = 0;
-while (i < 100) {
+while (i < 100000) {
  	(function(i) {
     	setTimeout(function() {
     		fetch('http://smart.sum.ba/parking?withParkingSpaces=1', {
