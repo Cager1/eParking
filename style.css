@@ -1,1 +1,519 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.outbox {
+    width: 1500px;
+    height: 7000px;
+    margin:auto;
+    border: 3px solid white;
+}
+
+
+.outbox2 {
+    width: 1200px;
+    height: 1000px;
+    border: 7px solid white;
+    margin: 20px auto;
+}
+
+.rightbox {
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    border-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.leftbox {
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    border-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 100px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+.none1 {
+    height: 12px;
+}
+
+.flex-container2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container2 > div {
+  width: 100px;
+  border: 1px solid white;
+  border-right: 0px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+.hrightbox {
+    width: 60px;
+    height: 120px;
+    border: 1px solid white;
+    border-right: 0px;
+    border-left: 0px;
+    color: white;
+    padding-left: 3px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+.hrightbox2 {
+    width: 60px;
+    height: 120px;
+    border: 1px solid white;
+    border-right: 0px;
+    border-left: 0px;
+    color: white;
+    padding-left: 3px;
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.object {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.object > .gradjevinski {
+  width: 90px;
+  height: 1250px;
+  border: 7px solid white;
+  text-align: center;
+  padding: 15px;
+  background-color: grey;
+}
+.object > .FSRE {
+  width: 90px;
+  height: 1800px;
+  border: 7px solid white;
+  text-align: center;
+  padding: 15px;
+  background-color: grey;
+}
+.object > .pravni {
+  width: 90px;
+  height: 1600px;
+  border: 7px solid white;
+  text-align: center;
+  padding: 15px;
+  background-color: grey;
+}
+.object > .bolnica {
+  width: 70px;
+  height: 300px;
+  border: 7px solid white;
+  text-align: center;
+  padding: 15px;
+  background-color: grey;
+  margin-top: 30px;
+}
+.object > .ekonomski {
+  width: 90px;
+  height: 1600px;
+  border: 7px solid white;
+  text-align: center;
+  padding: 15px;
+  background-color: grey;
+  margin-top: 30px;
+}
+.stadion {
+    margin-top: 50px;
+    width: 800px;
+    height: 1950px;
+    border: 4px white solid;
+    margin-left: 220px;
+    border-radius: 450px / 500px;
+    position: absolute;
+    text-align: center;
+
+}
+.flex-container3 {
+    display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+.flex-container3 > .div1 {
+    border: 1px solid white;
+    border-left: 0px;
+    width: 120px;
+    height: 60px;
+    color: white;
+    text-align: center;
+}
+.none {
+    width: 120px;
+    height: 60px;
+    border: 0px;
+}
+
+.flex-container3 > .div2 {
+    border: 1px solid white;
+    border-left: 0px;
+    width: 120px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    margin-right: 50px;
+}
+.object > .FPMOZ {
+position: absolute;
+right: 272px;
+margin-top: 400px;
+ background-color: grey;
+  width: 90px;
+  height: 1600px;
+  border: 7px solid white;
+  text-align: center;
+  padding: 15px;
+}
+.object > .filozofski {
+    position: absolute;
+    right: 272px;
+    margin-top: 1980px;
+     background-color: grey;
+      width: 90px;
+      height: 1600px;
+      border: 7px solid white;
+      text-align: center;
+      padding: 15px;
+      color: white;
+}
+
+.flex-container4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 105px;
+    margin-top: -35px;
+
+}
+
+.flex-container5 {
+    display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   margin-top: -434px;
+   margin-left: 19px;
+}
+.flex-container5 > .div3 {
+    border: 1px solid white;
+    border-right: 0px;
+    width: 120px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    margin-right: 300px;
+}
+.flex-bocnimali > .div2 {
+    border: 1px solid white;
+    border-left: 0px;
+    width: 120px;
+    height: 60px;
+    color: white;
+    text-align: center;
+}
+.flex-bocnimali {
+    margin-top: 90px;
+    margin-right: 30px;
+}
+
+.flex-container6  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.flex-container6 > .div2  {
+    border: 1px solid white;
+    border-left: 0px;
+    width: 120px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    margin-right: 420px;
+}
+.flex-container7 {
+    display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   margin-right: 300px;
+}
+.flex-container7 > .hrightbox  {
+    border: 1px solid white;
+    border-left: 0px;
+    border-right: 0px;
+    width: 60px;
+    height: 120px;
+    color: white;
+    margin-right: 22px;
+    text-align: center;
+}
+.flex-container7 > .none {
+    margin-right: 19px;
+}
+.nis {
+    width: 1px;
+    height: 1px;
+}
+.isprekidana {
+    border-style: dashed;
+    border: 1px solid white;
+    height: 2000px;
+    width: 0px;
+    border-left: 0px;
+    border-width: 1px;
+}
+.lgcesta {
+    width: 60px;
+    height: 487px;
+    border: 3px solid white;
+    border-top: 0px;
+    border-bottom: 0px;
+    margin-left: 68px;
+    border-left-style: dashed;
+}
+.gradjUlaz {
+    width: 60px;
+    height: 305px;
+    border: 3px solid white;
+    margin-left: 71px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    margin-top: -3px;
+}
+.lgcesta2 {
+    width: 60px;
+    height: 1220px;
+    border: 3px solid white;
+    margin-left: 68px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left-style: dashed;
+}
+
+.topcircle1 {
+    width: 993px;
+    height: 240px;
+    border: 3px white solid;
+    margin-left:131px;
+    border-radius: 450px / 500px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-top: -150px;
+}
+.topcircle2 {
+    width: 595px;
+    height: 240px;
+    border: 3px white solid;
+    margin-left:130px;
+    border-radius: 120px 120px 0 0;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-top: -95px;
+}
+.topcircle3 {
+    width: 248px;
+    height: 240px;
+    border: 3px white solid;
+    margin-left:847px;
+    border-radius: 110px 110px 0 0;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-top: -96px;
+}
+
+
+.ldcesta {
+    width: 60px;
+    height: 1160px;
+    border: 3px solid white;
+    border-top: 0px;
+    border-bottom: 0px;
+    margin-left: 68px;
+    margin-top: -1px;
+    border-left: dashed 3px;
+}
+
+.dgcesta {
+    width: 60px;
+    height: 2000px;
+    border: 3px solid white;
+    border-top: 0px;
+    border-bottom: 0px;
+    margin-left: -250px;
+    border-right-style: dashed;
+}
+.dgcestaline {
+    width: 60px;
+    height: 2220px;
+    border: 3px solid white;
+    border-top: 0px;
+    border-bottom: 0px;
+    margin-left: -184px;
+    border-left: 0px;
+    border-radius: 0 0 25px 0;
+
+}
+
+.mcestaline {
+    width: 60px;
+    height: 556px;
+    border: 3px solid white;
+    border-top: 0px;
+    border-bottom: 0px;
+    margin-left: -154px;
+    border-right: 0px;
+    border-radius: 13px 0 0 0;
+    margin-top: -12px;
+}
+.mcestaline1 {
+    width: 60px;
+    height: 450px;
+    border: 3px solid white;
+    border-top: 0px;
+    margin-left: -280px;
+    border-right-style: dashed;
+    margin-top: 90px;
+}
+.mcestaline2 {
+    width: 60px;
+    height:1233px;
+    border: 3px solid white;
+    margin-left: -588px;
+    margin-top:150px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left-style: dashed;
+}
+
+.mcestaline3 {
+    width: 60px;
+    height:1150px;
+    border: 3px solid white;
+    margin-left: 662px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+
+}
+.sitnica {
+    width: 63px;
+    height: 60px;
+    border-bottom: 3px solid white;
+    margin-left: -215px;
+    margin-top: -45px;
+}
+.topcircle4 {
+    width: 595px;
+    height: 240px;
+    border: 3px white solid;
+    margin-left:131px;
+    border-radius: 450px / 500px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-top: -150px;
+}
+
+.topcircle5 {
+    width: 595px;
+    height: 240px;
+    border: 3px white solid;
+    margin-left:130px;
+    border-radius: 120px 120px 0 0;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-top: -93px;
+}
+
+.ddline{
+    width: 60px;
+    height: 3150px;
+    border: 3px white solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    margin-left: -146px;
+}
+.ddline1 {
+    width: 60px;
+    height: 978px;
+    border: 3px white solid;
+    border-right-style: dashed;
+    margin-left: -147px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+.ddline2 {
+    width: 60px;
+    height: 670px;
+    border: 3px white solid;
+    border-right-style: dashed;
+    margin-left: -147px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+.dlline {
+    width: 60px;
+    height: 3160px;
+    border: 3px solid white;
+    margin-left: 130px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.dlline1 {
+    width: 60px;
+    height: 1098px;
+    border: 3px white solid;
+    border-right-style: dashed;
+    margin-left: 7px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+.dlline2 {
+    width: 60px;
+    height: 680px;
+    border: 3px white solid;
+    border-right-style: dashed;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+.brr {
+    text-align: left;
+}
 
