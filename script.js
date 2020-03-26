@@ -27,10 +27,8 @@ socket.on('parking-lot-state-change', function(data) {
 	console.log("State change on " + data.id_parking_space + " parking spot");
 	if (data.occupied == 1) {
 		document.getElementById(data.id_parking_space).style.backgroundColor = "red";
-		document.getElementById(data.id_parking_space).innerHTML = "Red";
 	} else {
 		document.getElementById(data.id_parking_space).style.backgroundColor = "green";
-		document.getElementById(data.id_parking_space).innerHTML = "Green";
 	}
 });
 
