@@ -494,3 +494,15 @@ margin-top: 400px;
     margin-left: 903px;
     margin-top: 6750px;
 }
+
+.carLeft {
+    background-image: url(images/red_car_left.png);
+}
+
+.carRight {
+    background-image: url(images/red_car_right.png);
+}
+
+.carUp {
+    background-image: url(images/red_car_up.png);
+}
