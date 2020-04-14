@@ -12,6 +12,7 @@ fetch('http://smart.sum.ba/parking?withParkingSpaces=1', {
 		for (var i = 1; i < occu.length + 1; i++) {
 			if (occu[i - 1] == 1) {
 				document.getElementById(i).style.backgroundColor = "red";
+				document.getElementById(i).style.pointerEvents = "none";
 				if (i >= 1 && i <= 13) {
 					//top
 					document.getElementById(i).classList.add("carUp");
@@ -28,6 +29,7 @@ fetch('http://smart.sum.ba/parking?withParkingSpaces=1', {
 
 			} else {
 				document.getElementById(i).style.backgroundColor = "green";
+				document.getElementById(i).style.cursor = "pointer";
 			}
 		}
 	})
@@ -41,6 +43,8 @@ socket.on('parking-lot-state-change', function(data) {
 	console.log("State change on " + data.id_parking_space + " parking spot");
 	if (data.occupied == 1) {
 		document.getElementById(data.id_parking_space).style.backgroundColor = "red";
+		document.getElementById(i).style.pointerEvents = "none";
+		document.getElementById(i).style.cursor = " ";
 		if (data.id_parking_space >= 1 && data.id_parking_space <= 13) {
 			//top
 			document.getElementById(data.id_parking_space).classList.add("carUp");
@@ -57,7 +61,7 @@ socket.on('parking-lot-state-change', function(data) {
 
 	} else {
 		document.getElementById(data.id_parking_space).style.backgroundColor = "green";
-
+		document.getElementById(i).style.pointerEvents = " ";
 		if (data.id_parking_space >= 1 && data.id_parking_space <= 13) {
 			//top
 			document.getElementById(data.id_parking_space).classList.remove("carUp");
