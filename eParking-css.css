@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #6e6e6e;
     color: white;
 
 }
@@ -13,7 +13,7 @@ body {
     width: 1550px;
     height: 7000px;
     margin:auto;
-    border: 3px solid white;
+    border: 1px solid white;
 }
 
 
@@ -38,6 +38,7 @@ body {
   font-size: 15px;
   color: white;
   z-index: -1;
+  background-color: #6e6e6e !important;
 }
 .none1 {
     height: 12px;
@@ -48,6 +49,7 @@ body {
     display: flex;
     flex-direction: column;
     z-index: -1;
+    background-color: #6e6e6e !important;
 }
 
 .flex-container2 > div {
@@ -58,10 +60,11 @@ body {
   font-size: 15px;
   color: white;
   z-index: -1;
+  background-color: #6e6e6e !important;
 }
 
 .hrightbox {
-    width: 60px;
+    width: 55px;
     height: 120px;
     border: 1px solid white;
     border-right: 0px;
@@ -70,21 +73,7 @@ body {
     padding-left: 3px;
     display: flex;
     justify-content: center;
-    margin-left: 5px;
-    z-index: -1;
-}
-.hrightbox2 {
-    width: 60px;
-    height: 120px;
-    border: 1px solid white;
-    border-right: 0px;
-    border-left: 0px;
-    color: white;
-    padding-left: 3px;
-    display: flex;
-    justify-content: center;
-    margin-right: 100px;
-    z-index: -1;
+    background-color: #666666 !important;
 }
 
 .object {
@@ -93,63 +82,146 @@ body {
     flex-direction: column;
 }
 .object > .gradjevinski {
-  width: 90px;
+  position: absolute;
+  width: 98px;
   height: 1250px;
-  border: 7px solid white;
+  border: 1px solid white;
   text-align: center;
   padding: 15px;
+  margin-top: 21px;
+  margin-left: 1px;
+  background-color: #666688;
 
 }
 .object > .FSRE {
-  width: 90px;
+  position: absolute;
+  width: 70px;
   height: 1800px;
-  border: 7px solid white;
+  border: 1px solid white;
   text-align: center;
   padding: 15px;
+  margin-top: 1364px;
+  margin-left: 1px;
+  background-color: #666688;
 
 }
 .object > .pravni {
-  width: 90px;
+  position: absolute;
+  width: 98px;
   height: 1600px;
-  border: 7px solid white;
+  border: 1px solid white;
   text-align: center;
   padding: 15px;
+  margin-top: 3197px;
+  margin-left: 1px;
+  background-color: #666688;
 
 }
 .object > .bolnica {
-  width: 70px;
+  position: absolute;
+  width: 75px;
   height: 300px;
-  border: 7px solid white;
+  border: 1px solid white;
   text-align: center;
   padding: 15px;
+  margin-top: 4868px;
+  margin-left: 1px;
+  background-color: #666688;
 
-  margin-top: 30px;
 }
 .object > .ekonomski {
-  width: 90px;
+  width: 98px;
   height: 1600px;
-  border: 7px solid white;
+  border: 1px solid white;
   text-align: center;
   padding: 15px;
+  margin-top: 5250px;
+  margin-left: 1px;
+  background-color: #666688;
+}
+.object > .FPMOZ {
+  width: 98px;
+  height: 1600px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 15px;
+  background-color: #666688;
+  position: absolute;
+  margin-left: 1029px;
+  margin-top: 3140px;
 
-  margin-top: 30px;
+}
+.object > .filozofski {
+  width: 98px;
+  height: 1600px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 15px;
+  background-color: #666688;
+  margin-top: 1px;
+  position: absolute;
+  margin-left: 1029px;
+  margin-top: 4890px;
+}
+.object > .skripta {
+    width: 600px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 15px;
+    background-color: #666688;
+    position: absolute;
+    margin-left: 267px;
+    margin-top: 3135px;
+}
+
+.object > .FSREgarage {
+
+    width: 200px;
+    height: 600px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 15px;
+    background-color: #666688;
+    position: absolute;
+    margin-left: 267px;
+    margin-top: 2300px;
+}
+
+.object > .FSREgarage2 {
+
+    width: 300px;
+    height: 200px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 15px;
+    background-color: #666688;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 2300px;
 }
 .stadion {
+    position: absolute;
     margin-top: 50px;
     width: 800px;
     height: 1950px;
     border: 4px white solid;
-    margin-left: 250px;
+    margin-left: 375px;
     border-radius: 450px / 500px;
     position: absolute;
     text-align: center;
+    background-color: #666688;
+    z-index: 2;
 
 }
 .flex-container3 {
+    position: absolute;
     display: flex;
-   flex-direction: column;
-   align-items: flex-end;
-   z-index: -1;
+    flex-direction: column;
+    margin-left:1429px;
+    margin-top: 30px;
+    background-color: #6e6e6e !important;
+    z-index: 1;
 }
 .flex-container3 > .div1 {
     border: 1px solid white;
@@ -158,11 +230,11 @@ body {
     height: 60px;
     color: white;
     text-align: center;
-    z-index: -1;
+    Background-color: #6e6e6e !important;
 }
 .none {
-    width: 120px;
-    height: 60px;
+    width: 2px;
+    height: 155px;
     border: 0px;
 }
 
@@ -174,46 +246,33 @@ body {
     color: white;
     text-align: center;
     margin-right: 50px;
-    z-index: -1;
-}
-.object > .FPMOZ {
-position: absolute;
-right: 271px;
-margin-top: 400px;
+    Background-color: #6e6e6e !important;
 
-  width: 90px;
-  height: 1600px;
-  border: 7px solid white;
-  text-align: center;
-  padding: 15px;
 }
-.object > .filozofski {
-    position: absolute;
-    right: 271px;
-    margin-top: 1980px;
 
-      width: 90px;
-      height: 1600px;
-      border: 7px solid white;
-      text-align: center;
-      padding: 15px;
-      color: white;
-}
 
 .flex-container4 {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    margin-left: 105px;
-    margin-top: -35px;
+    margin-left: 136px;
+    margin-top:21px;
+    background-color: #666666 !important;
+    z-index: 1;
 
 }
-
+.ulazGradjevinski {
+    height: 327px;
+}
+.ulazFSRE {
+    height:450px;
+}
 .flex-container5 {
+    position: absolute;
     display: flex;
    flex-direction: column;
-   align-items: flex-end;
-   margin-top: -434px;
-   margin-left: 19px;
+   margin-top: 2340px;
+   margin-left: 1148px;
 }
 .flex-container5 > .div3 {
     border: 1px solid white;
@@ -223,8 +282,17 @@ margin-top: 400px;
     color: white;
     text-align: center;
     margin-right: 300px;
-    z-index: -1;
+    Background-color: #6e6e6e !important;
 }
+
+.flex-bocnimali {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 2340px;
+    margin-left:1389px;
+}
+
 .flex-bocnimali > .div2 {
     border: 1px solid white;
     border-left: 0px;
@@ -232,19 +300,16 @@ margin-top: 400px;
     height: 60px;
     color: white;
     text-align: center;
-    z-index: -1;
-}
-.flex-bocnimali {
-    margin-top: 90px;
-    margin-right: 41px;
+    Background-color: #6e6e6e !important;
 }
 
 .flex-container6  {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-top: 90px;
-    margin-left: 20px;
+    margin-top: 2340px;
+    margin-left: 1029px;
+    z-index: 1;
 }
 .flex-container6 > .div2  {
     border: 1px solid white;
@@ -253,14 +318,20 @@ margin-top: 400px;
     height: 60px;
     color: white;
     text-align: center;
-    margin-right: 420px;
+    Background-color: #6e6e6e !important;
     z-index: -1;
 }
+.ulazFPMOZ {
+    width: 60px;
+    height: 1000px;
+}
 .flex-container7 {
+    position: absolute;
     display: flex;
    flex-direction: column;
    align-items: flex-end;
-   margin-right: 300px;
+   margin-top:3320px;
+   margin-left: 961px;
 }
 .flex-container7 > .hrightbox  {
     border: 1px solid white;
@@ -269,12 +340,12 @@ margin-top: 400px;
     width: 60px;
     height: 120px;
     color: white;
-    margin-right: 21px;
     text-align: center;
-    z-index: -1;
 }
-.flex-container7 > .none {
-    margin-right: 19px;
+.ulazFilozofski {
+    width: 60px;
+    height: 890px;
+
 }
 .nis {
     width: 0px;
@@ -282,25 +353,28 @@ margin-top: 400px;
 }
 
 .lgcesta {
-    width: 60px;
+    width: 120px;
     height: 7000px;
     border: 3px solid white;
     border-bottom: 0px;
     border-top: 0px;
     border-right: 0px;
     margin-left: 132px;
+    background-color:#666666;
 }
 .dgcesta {
-    width: 60px;
-    height: 2028px;
+    width: 120px;
+    height: 2167px;
     border: 3px solid white;
     border-top: 0px;
     border-bottom: 0px;
     border-left: 0px;
-    margin-left: 1365px;
+    margin-left: 1305px;
+    background-color: #666666;
 }
 
 .topcircle1 { /* Create the circle */
+    position: absolute;
     width: 1046px;
     height: 2130px;
     border: 3px solid white;
@@ -308,19 +382,11 @@ margin-top: 400px;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
     margin-left: 253px;
+    z-index: 1;
+    background-color: #6e6e6e;
 
 }
-.traka1 {
-    position: absolute;
-    width: 1166px;
-    height: 2190px;
-    border: 2px dashed white;
-    border-top: 0px;
-    border-bottom-right-radius: 120px;
-    border-bottom-left-radius: 120px;
-    margin-left: 195px;
-    border-bottom-width: 1px;
-}
+
 .topcircle2 {
     position: absolute;/* Create the circle */
     width: 655px;
@@ -332,22 +398,7 @@ margin-top: 400px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
-}
-
-.traka2 {
-    position: absolute;
-    width: 770px;
-    height: 1449px;
-    border: 2px solid white;
-    border-top-right-radius: 120px;
-    border-top-left-radius: 120px;
-    border-bottom-right-radius: 120px;
-    border-bottom-left-radius: 120px;
-    border-style: dashed;
-    margin-left: 195px;
-    margin-top: 2190px;
-    border-top-width: 0px;
-
+    background-color: #6e6e6e;
 }
 
 .topcircle3 { /* Create the circle */
@@ -360,32 +411,7 @@ margin-top: 400px;
     border-top-right-radius: 100px;
     border: 3px solid white;
     border-bottom: 0px;
-}
-.traka3 {
-    position: absolute;
-    width: 359px;
-    height: 585px;
-    border: 2px solid white;
-    border-bottom: 0px;
-    border-top: 0px;
-    border-left: 0px;
-    border-style: dashed;
-    border-top-right-radius: 100px;
-    margin-left:967px;
-    margin-top: 2190px;
-}
-.trakax3 {
-    position: absolute;
-    width: 500px;
-    height: 100px;
-    border: 2px solid white;
-    border-bottom: 0px;
-    border-top: 0px;
-    border-right: 0px;
-    border-style: dashed;
-    border-top-left-radius: 100px;
-    margin-left:966px;
-    margin-top: 2190px;
+    background-color: #6e6e6e;
 }
 
 .mcestaline {
@@ -409,6 +435,7 @@ margin-top: 400px;
     border-radius:  0 0 60px 0;
     margin-left: 1400px;
     margin-top: 2000px;
+    background-color: #666666
 }
 
 
@@ -423,42 +450,18 @@ margin-top: 400px;
     border-bottom-left-radius: 100px;
     margin-left:253px;
     margin-top: 3688px;
+    background-color: #6e6e6e;
 }
 .mcestalinex {
     position: absolute;
-    width: 55px;
-    height: 870px;
+    width: 120px;
+    height: 4300px;
     border: 3px solid white;
     border-left: 0px;
     border-top: 0px;
+    border-bottom: 0px;
     margin-top: 2700px;
-    margin-left: 970px;
-    border-bottom-width: 1px;
-}
-.mcestalinex1 {
-    position: absolute;
-    width: 55px;
-    height: 4298px;
-    border: 3px solid white;
-    border-left: 0px;
-    border-top: 0px;
-    margin-top: 2700px;
-    margin-left: 970px;
-    border-bottom:0px;
-}
-.traka4 {
-    position: absolute;
-    width: 768px;
-    height: 3210px;
-    border: 2px solid white;
-    border-top: 0px;
-    border-style: dashed;
-    border-top-right-radius: 120px;
-    border-top-left-radius: 120px;
-    border-bottom-right-radius: 120px;
-    border-bottom-left-radius: 120px;
-    margin-left:193px;
-    margin-top: 3639px;
+    margin-left: 905px;
 }
 
 .topcircle5 {
@@ -470,39 +473,184 @@ margin-top: 400px;
     border-top-right-radius: 100px;
     border-top-left-radius: 100px;
     margin-left: 253px;
-    margin-top: 6900px;
+    margin-top: 6897px;
+    background-color: #6e6e6e;
 }
-.glulaztraka {
-    position: absolute;
-    width: 60px;
-    height: 245px;
-    border: 2px dashed white;
-    border-bottom: 0px;
-    border-top: 0px;
-    border-left: 0px;
-    margin-left: 134px;
-    margin-top: 6750px;
-}
-.glizlaztraka {
-    position: absolute;
-    width: 60px;
-    height: 245px;
-    border: 2px dashed white;
-    border-bottom: 0px;
-    border-top: 0px;
-    border-left: 0px;
-    margin-left: 903px;
-    margin-top: 6750px;
-}
+
 
 .carLeft {
     background-image: url(images/red_car_left.png);
+    background-color: #6e6e6e !important;
 }
 
 .carRight {
     background-image: url(images/red_car_right.png);
+    Background-color: #6e6e6e !important;
 }
 
 .carUp {
     background-image: url(images/red_car_up.png);
+    Background-color: #666666 !important;
+}
+
+/*shit content*/
+.gradjevinskileft {
+    position: absolute;
+    height: 300px;
+    width: 10px;
+    border: 1px solid white;
+    margin-top: 525px;
+    background-color: #6e6e6e;
+    z-index: 1;
+}
+.gradjevinskiright {
+    position: absolute;
+    height: 487px;
+    width: 20px;
+    border: 1px solid white;
+    border-right: 0px;
+    border-top: 0px;
+    margin-left: 110px;
+    background-color: #6e6e6e;
+    z-index: 1;
+    margin-top: 21px;
+}
+.gradjevinskiright1 {
+    position: absolute;
+    height: 150px;
+    width: 30px;
+    border: 1px solid white;
+    border-right: 0px;
+    margin-top: 600px;
+    margin-left: 100px;
+    background-color: #6e6e6e;
+    z-index: 1;
+}
+.gradjevinskiright2 {
+    position: absolute;
+    height: 467px;
+    width: 20px;
+    border: 1px solid white;
+    border-right: 0px;
+    border-bottom: 0px;
+    margin-left: 110px;
+    background-color: #6e6e6e;
+    z-index: 1;
+    margin-top: 835px;
+}
+.FSREright {
+    position: absolute;
+    width: 28px;
+    height: 400px;
+    margin-top: 1980px;
+    margin-left: 101px;
+    border: 1px solid white;
+    border-left: 0px;
+    background-color: #666688;
+}
+.pravniright {
+    position: absolute;
+    width: 40px;
+    height: 800px;
+    margin-top: 3636px;
+    margin-left: 90px;
+    border: 1px solid white;
+    border-right: 0px;
+    background-color: #6e6e6e;
+}
+.ekonomskiright {
+    position: absolute;
+    width: 40px;
+    height: 800px;
+    margin-top: 5650px;
+    margin-left: 90px;
+    border: 1px solid white;
+    border-right: 0px;
+    background-color: #6e6e6e;
+}
+.FPMOZleft {
+    position: absolute;
+    width: 40px;
+    height: 682px;
+    margin-top: 3636px;
+    margin-left: 1029px;
+    border: 1px solid white;
+    border-left: 0px;
+    background-color: #6e6e6e;
+}
+.outboxcrop {
+    position: absolute;
+    margin-top: 2800px;
+    margin-left: 1426px;
+    transform: rotate(45deg);
+    height: 350px;
+    width: 1px;
+    background-color: white;
+    border: 0px;
+    z-index: 2;
+}
+.outboxcrop2 {
+    position: absolute;
+    margin-top: 2852px;
+    margin-left: 1549px;
+    height: 350px;
+    width: 2px;
+    background-color: #6e6e6e;
+    z-index: 1;
+}
+.outboxcrop3 {
+    position: absolute;
+    border: 1px solid white;
+    margin-top: 3098px;
+    margin-left: 1302px;
+    height: 3903px;
+    width: 248px;
+    background-color: #6e6e6e;
+    z-index: 1;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0PX;
+}
+/**/
+.ulazPravni {
+    height: 850px;
+}
+
+.bojaSredina {
+    position: absolute;
+    background-color: #666666;
+    width:780px;
+    height: 4950px;
+    margin-top: 2050px;
+    margin-left: 248px;
+    z-index: -1;
+}
+.bojaSredina1 {
+    position: absolute;
+    background-color: #666666;
+    width:385px;
+    height: 726px;
+    margin-top: 2050px;
+    margin-left: 1000px;
+    z-index: -1;
+}
+.bojaKut {
+    width: 45px;
+    height: 30px;
+    position: absolute;
+    background-color: #666666;
+    margin-top: 2166px;
+    margin-left: 1363px;
+    z-index: -1;
+    border-radius: 50px;
+    transform: rotate(-40deg);
+}
+.bojaKut1 {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color:#666666;
+    margin-top: 2187px;
+    margin-left: 1396px;
+    z-index: -1;
 }
