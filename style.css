@@ -1,216 +1,122 @@
-<html>
+body {
+    background-image: url(./main-background.png);
+}
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+.headerr h1 {
+    color: #fff;
+    margin: 50px auto;
+}
 
-    <meta charset="utf-8">
-    <link rel="stylesheet" style="text/css"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" style="text/css" href="./style.css">
-    <title>Home page</title>
+.nav-bar {
+    padding: 10px 0;
+    background-color:#edf1f7;
+}
 
-</head>
+.jumbotron {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+    background-image: url(https://images.pexels.com/photos/1756957/pexels-photo-1756957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-<body>
+.jumbotron p, .jumbotron h4, .jumbotron h1{
+    color: white;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+}
 
-    <!-- nav bar -->
-    <div class="header nav-bar" id="nav">
-        <div class="container">
-            <ul class="nav justify-content-center nav-fill">
-                <li class="nav-item">
-                    <a class="nav-link nav-fill" href="#">Naslovna</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-fill" href="#">Rezerviraj</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-fill disabled" href="#" tabindex="-1" aria-disabled="true">eParking</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-fill" href="#">Preporučeno</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-fill" href="#">Odjavi se</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+.weather-widget {
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    margin:0 auto;
+}
 
+.main {
+    margin-top: -2rem;
+}
 
-    <!--
-    <div class="container">
+.main .col-md-6 {
+    padding: 0;
+}
 
-        <div class="row nav-bar">
-            <div class="col-md-1 text-center">
-                <a href="#"><img src="./sum_logo.png" class="sumLogo"></a>
-            </div>
-            <div class="col-md-10 text-center">
-                <div class="weather weather-widget">
-                    <a class="weatherwidget-io" href="https://forecast7.com/hr/43d3417d81/mostar/" data-label_1="MOSTAR"
-                        data-mode="Current" data-days="3" data-accent="#ffffff" data-textcolor="#ffffff">MOSTAR</a>
-                    <script>
-                        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
-                    </script>
-                </div>
-            </div>
-            <div class="col-md-1 text-center">
-                <a href="logout.php" class="float-right" id="logout">Log out</a>
-            </div>
-        </div>
+.main .card {
+    border: none;
+    border-radius: 0;
+    height:300px;
+    border-bottom: 2px solid black;
+}
 
+.main .card-body {
+    padding: 30px
+}
 
+.main .card-body h6, .main .card-body a,.main .card-body p{
+    padding-top:10px;
+}
 
-    </div>
-    -->
+button {
+    padding: 10px 15px !important;
+}
 
-    <!-- jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container text-center">
-            <p class="lead">Dostupnih mjesta:</p>
-            <h1 class="display-4"><b><span id="totalAvailable"></span></b></h1>
-            <br />
+.rezervirajCard {
+    border-right: 2px solid black !important;
+}
 
-            <div class="row">
-                <div class="col-md-4">
-                    <p class="lead">Mjesta za invalide:</p>
-                    <h4><span id="handicapAvailable"></span></h4>
-                </div>
-                <div class="col-md-4">
-                    <p class="lead">Radno vrijeme:</p>
-                    <h4><span id="">08:00 - 20:00</span></h4>
-                </div>
-                <div class="col-md-4">
-                    <p class="lead">Mjesta za taksije:</p>
-                    <h4><span id="taxiAvailable"></span></h4>
-                </div>
-            </div>
+#mapaButton {
+    align-items: flex-end !important; 
+}
 
-            <br />
+.preporuceno .card {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    height: 300px;
+}
 
-            <!-- weather widget -->
-            <div class="weather weather-widget">
-                <a class="weatherwidget-io" href="https://forecast7.com/hr/43d3417d81/mostar/" data-label_1="MOSTAR"
-                    data-mode="Current" data-days="3" data-accent="#ffffff" data-textcolor="#ffffff">MOSTAR</a>
-                <script>
-                    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
-                </script>
-            </div>
-        </div>
-    </div>
+.sidenav {
+  height: 100%;
+  width:0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  text-align:center;
+  background-color:#6e6e6e;
+ 
 
-    <!-- main -->
-    <div class="main">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card rezervirajCard">
-                        <div class="card-body">
-                            <a href="#" class="card-link">
-                                <button type="button" class="btn btn-secondary">Rezerviraj</button>
-                            </a>
-                            <!--
-                                <h5 class="card-title">Rezervacije</h5>
-                            -->
-                            <h6 class="card-subtitle mb-2 text-muted">Rezervirajte svoje mjesto</h6>
-                            <p class="card-text">Moguće je rezervirati mjesto na 24h, da vas dočeka spremno i
-                                prazno.</p>
+}
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card mapaCard">
-                        <div class="card-body text-right">
-                            <!--
-                                <h5 class="card-title">Mapa parkinga</h5>
-                            -->
-                            <h6 class="card-subtitle mb-2 text-muted">Grafički prikaz parkinga</h6>
-                            <p class="card-text">Pregledajte mapu parkinga, vidite dostupna mjesta i rezervirajte
-                                željeno parking mjesto</p>
-                            <a href="#">
-                                <button type="button" class="d-flex btn btn-secondary float-right" id="mapaButton"
-                                    onclick="openNav()">Mapa</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+.sidenav a {
+	position:fixed;
+	text-decoration:none;
+}
 
-            </div>
-        </div>
+.sidenav .closebtn {
+  position: absolute;
+  right: 30;
+  top:-5;
+  font-size: 36px;
+  color: white;
+  z-index:1;
+}
+.iframe {
+	border:0px;
+	background-color:#6e6e6e;
+	position:absolute;
+}
+.parkinglogo {
+	z-index:1;
+	width:70px;
+	height:70px;
+	
+	
+}
 
-    </div>
-
-    <!-- preporučeno -->
-    <div class="preporuceno">
-        <div class="container-fluid">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Preporučeno</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Preporučeno mjesto za vas</h6>
-                    <p class="card-text">Naš algoritam vam preporučuje mjesto uzimajući u obzir više o 12
-                        faktora o vama.</p>
-                    <a class="card-link">
-                        <button type="button" class="btn btn-secondary">Predloži</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- sidenav -->
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <iframe src="karta.html" height="100%" width="100%"></iframe>
-    </div>
-
-    <!-- footer -->
-    <div class="footer">
-
-    </div>
-
-    <!-- javascript -->
-    <script>
-        /*
-        const url = 'http://smart.sum.ba/parking?withParkingSpaces=1';
-
-        const fetchMyJSON = (callback) => {
-            fetch(url)
-                .then(response => response.json())
-                .then(json => { return callback(json[0]); });
-        };
-
-        fetchMyJSON(console.log);
-        */
-
-        let jumbotron_data = () => { // funkcija za ispisivanje slobodnih mjesta u jumbotronu
-            const url = 'http://smart.sum.ba/parking?withParkingSpaces=1';
-            fetch(url)
-                .then(res => res.json())
-                .then(data => {
-                    document.getElementById('totalAvailable').innerHTML = (data[0].normal_available);
-                    document.getElementById('handicapAvailable').innerHTML = (data[0].handicap_available);
-                    document.getElementById('taxiAvailable').innerHTML = (data[0].capacity_taxi);
-                });
-            setInterval(() => {
-                fetch(url)
-                    .then(res => res.json())
-                    .then(data => {
-                        document.getElementById('totalAvailable').innerHTML = (data[0].normal_available);
-                        document.getElementById('handicapAvailable').innerHTML = (data[0].handicap_available);
-                        document.getElementById('taxiAvailable').innerHTML = (data[0].capacity_taxi);
-                    });
-            }, 2000);
-        };
-        jumbotron_data();
-
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "100%";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
-</body>
-
-</html>
+@-ms-viewport{
+  width: device-width;
+}
