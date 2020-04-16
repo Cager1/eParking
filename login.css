@@ -1,0 +1,42 @@
+body {
+    background:linear-gradient(rgba(0,0,50,0.2),rgba(0,0,50,0.1)),url(image.jpg);
+    background-size: cover;
+    background-position: center;
+	overflow:40px;
+}
+
+.login-box {
+    max-width: 700px;
+    float: none;
+    margin: 60px auto;
+
+}
+
+.login-left {
+    background-color: rgba(211,211,211,0.5);
+    padding:30px;
+}
+
+.login-right {
+    background: #fff;
+    padding:30px;
+}
+
+.form-control {
+    background-color: transparent !important;
+}
+
+#logout {
+    color:white;
+    margin-top:30px;
+    padding-top: 5px;
+}
+
+.headerr h1 {
+    color: #fff;
+    margin: 50px auto;
+}
+
+p {
+    color:black;
+}
