@@ -1,4 +1,4 @@
-window.scrollTo(0, 50000);
+//window.scrollTo(0, 50000);
 fetch('http://smart.sum.ba/parking?withParkingSpaces=1', {
 })
 	.then(res => res.json())
@@ -77,3 +77,90 @@ socket.on('parking-lot-state-change', function(data) {
 		}
 	}
 });
+
+window.document.onkeydown = function (e) {
+    if (!e) {
+        e = event;
+    }
+
+    if (e.keyCode == 27) {
+        lightbox_close();
+    }
+}
+
+// Note that the function is receiving the clicked element reference.
+function lightbox_open(el) {
+
+    // All the anchors that have a class lightbox.
+    var anchors = document.querySelectorAll('a.lightbox');
+    // All the elements with class light.
+    var light = document.querySelectorAll('.light');
+    // All the elements with class fade.
+    var fade = document.querySelectorAll('.fade');
+
+    // Iterate over the anchors elements.
+    for (var i = 0; i < anchors.length; i++) {
+        // If the anchor matches the clicked one.
+        if (anchors[i] == el) {
+            // Look for the light and fade with the same index
+            // and display them.
+            light[i].style.display = 'block';
+            fade[i].style.display = 'block';
+        }
+    }
+}
+
+function lightbox_close() {
+    // All the elements with class light or fade.
+    var els = document.querySelectorAll('.light, .fade');
+
+    // Loop through the list.
+    for (var i = 0; i < els.length; i++) {
+        // Hide them.
+        els[i].style.display = 'none';
+    }
+}
+
+
+window.document.onkeydown = function (e) {
+    if (!e) {
+        e = event;
+    }
+
+    if (e.keyCode == 27) {
+        lightbox_close();
+    }
+}
+
+// Note that the function is receiving the clicked element reference.
+function lightbox1_open(el) {
+
+    // All the anchors that have a class lightbox.
+    var anchors = document.querySelectorAll('a.lightbox1');
+    // All the elements with class light.
+    var light = document.querySelectorAll('.light1');
+    // All the elements with class fade.
+    var fade = document.querySelectorAll('.fade1');
+
+    // Iterate over the anchors elements.
+    for (var i = 0; i < anchors.length; i++) {
+        // If the anchor matches the clicked one.
+        if (anchors[i] == el) {
+            // Look for the light and fade with the same index
+            // and display them.
+            light[i].style.display = 'block';
+            fade[i].style.display = 'block';
+        }
+    }
+}
+
+function lightbox1_close() {
+    // All the elements with class light or fade.
+    var els = document.querySelectorAll('.light1, .fade1');
+
+    // Loop through the list.
+    for (var i = 0; i < els.length; i++) {
+        // Hide them.
+        els[i].style.display = 'none';
+    }
+}

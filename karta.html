@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    
+
     <link rel="stylesheet" type="text/css" href="eParking-css.css">
-    <meta name="viewport" content="width=device-width, initial-scale=.5, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=.5, minimum-scale=.25, user-scalable=yes"/>
 
 </head>
 
-<body>
+<body class="disable-select">
 
 <div id="outbox" class="center">                                                <!--POČETAK OUTBOXA-->
 
@@ -174,31 +174,69 @@
             <div class="div2" id="18">P18</div>
             <div class="div2" id="17">P17</div>
             <div class="div2" id="16">P16</div>
-            <div class="div2" id="15">P15</div>
-            <div class="div2" id="14">P14</div>
+            <div class="div2" id="15">
+                <a href="#15" class="lightbox1" onclick="lightbox1_open(this)">P15</a>
+                    <div class="light1">REZERVIRAJ</div>
+                    <div class="fade1" onClick="lightbox1_close()"></div>
+            </div>
+            <div class="div2" id="14">
+                <a href="#14" class="lightbox1" onclick="lightbox1_open(this)">P13</a>
+                    <div class="light1">REZERVIRAJ</div>
+                    <div class="fade1" onClick="lightbox1_close()"></div>
+            </div>
+            </div>
 
-        </div>
+
 
         <div class="flex-container7">
 
             <div class="ulazFPMOZ"></div>
-            <div class="hrightbox" id="13">P13</div>
-            <div class="hrightbox" id="12">P12</div>
-            <div class="hrightbox" id="11">P11</div>
-            <div class="hrightbox" id="10">P10</div>
-            <div class="hrightbox" id="9">P09</div>
-            <div class="hrightbox" id="8">P08</div>
-            <div class="hrightbox" id="7">P07</div>
-            <div class="hrightbox" id="6">P06</div>
+            <div class="hrightbox" id="13">
+                <a href="#13" class="lightbox" onclick="lightbox_open(this)">P13</a>
+                    <div class="light">REZERVIRAJ</div>
+                    <div class="fade" onClick="lightbox_close()"></div>
+                </div>
+            <div class="hrightbox" id="12"><a href="#12" class="lightbox" onclick="lightbox_open(this)">P12</a>
+<div class="light">REZERVIRAJ</div>
+<div class="fade" onClick="lightbox_close()"></div></div>
+            <div class="hrightbox" id="11"><a href="#11" class="lightbox" onclick="lightbox_open(this)">P11</a>
+<div class="light">REZERVIRAJ</div>
+<div class="fade" onClick="lightbox_close()"></div></div>
+            <div class="hrightbox" id="10"><a href="#10" class="lightbox" onclick="lightbox_open(this)">P10</a>
+<div class="light">REZERVIRAJ</div>
+<div class="fade" onClick="lightbox_close()"></div></div>
+            <div class="hrightbox" id="9"><a href="#9" class="lightbox" onclick="lightbox_open(this)">P09</a>
+<div class="light">REZERVIRAJ</div>
+<div class="fade" onClick="lightbox_close()"></div></div>
+            <div class="hrightbox" id="8"><a href="#8" class="lightbox" onclick="lightbox_open(this)">P08</a>
+<div class="light">REZERVIRAJ</div>
+<div class="fade" onClick="lightbox_close()"></div></div>
+            <div class="hrightbox" id="7"><a href="#7" class="lightbox" onclick="lightbox_open(this)">P07</a>
+<div class="light">REZERVIRAJ</div>
+<div class="fade" onClick="lightbox_close()"></div></div>
+            <div class="hrightbox" id="6"><a href="#6" class="lightbox" onclick="lightbox_open(this)">P06</a>
+<div class="light">REZERVIRAJ</div>
+<div class="fade" onClick="lightbox_close()"></div></div>
             <div class="ulazFilozofski"></div>
-            <div class="hrightbox" id="5">P05</div>
-            <div class="hrightbox" id="4">P04</div>
-            <div class="hrightbox" id="3">P03</div>
-            <div class="hrightbox" id="2">P02</div>
-            <div class="hrightbox" id="1">P01</div>
+            <div class="hrightbox" id="5"><a href="#5" class="lightbox" onclick="lightbox_open(this)">P05</a>
+<div class="light">REZERVIRAJ</div>
+<div class="fade" onClick="lightbox_close()"></div></div>
+            <div class="hrightbox" id="4"><a href="#4" class="lightbox" onclick="lightbox_open(this)">P04</a>
+<div class="light">REZERVIRAJ</div>
+<div class="fade" onClick="lightbox_close()"></div></div>
+            <div class="hrightbox" id="3"><a href="#3" class="lightbox" onclick="lightbox_open(this)">P03</a>
+<div class="light">REZERVIRAJ</div>
+<div class="fade" onClick="lightbox_close()"></div></div>
+            <div class="hrightbox" id="2"><a href="#2" class="lightbox" onclick="lightbox_open(this)">P02</a>
+<div class="light">REZERVIRAJ</div>
+<div class="fade" onClick="lightbox_close()"></div></div>
+            <div class="hrightbox" id="1"><a href="#1" class="lightbox" onclick="lightbox_open(this)">P01</a>
+<div class="light">REZERVIRAJ</div>
+<div class="fade" onClick="lightbox_close()"></div></div>
 
         </div>
     </div>
+</div>
 </div> <!--KRAJ OUTBOXA -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
